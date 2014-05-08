@@ -3,6 +3,7 @@
 <meta charset="utf-8">
   <meta name="author" content="Lucas Fialho Zawacki" />
   <title>Produção Musical de Qualidade no Linux</title>
+  <style type="text/css">code{white-space: pre;}</style>
 <style>
   html { background-color: black; }
   body { background-color: white; border-radius: 12px}
@@ -81,23 +82,39 @@
   <h2 class="author">Lucas Fialho Zawacki</h2>
   <h3 class="date"></h3>
 </section>
-<section class="slide level1" id="quem-vos-fala">
+<section id="quem-vos-fala" class="slide level1">
 <h1>Quem vos fala?</h1>
 <ul>
 <li>Lucas Fialho Zawacki</li>
 <li>Formado em Ciência da Computação pela UFRGS</li>
-<li>Membro do Matehackers (<a href="http://matehackers.org"><code class="url">http://matehackers.org</code></a>)</li>
-<li>Software Livre na veia!</li>
+<li>Membro do Matehackers (<a href="http://matehackers.org">http://matehackers.org</a>)</li>
+<li>Trabalhando no <a href="http://mconf.org/">Mconf</a></li>
+<li><a href="yuph.net">yuph.net</a></li>
 </ul>
 </section>
-<section class="slide level1" id="contatos">
-<h1>Contatos</h1>
-<h2 id="httpblog.lfzawacki.com"><a href="http://blog.lfzawacki.com"><code class="url">http://blog.lfzawacki.com</code></a></h2>
-<h2 id="httpsoundcloud.comlfzawacki"><a href="http://soundcloud.com/lfzawacki"><code class="url">http://soundcloud.com/lfzawacki</code></a></h2>
-<h2 id="lfzawacki-gmail-twitter-whatever">@lfzawacki (gmail, twitter, whatever)</h2>
+<section id="mortticia" class="slide level1">
+<h1><a href="http://soundcloud.com/mortticia">Mortticia</a></h1>
+<figure>
+<img src="images/mort.jpg" />
+</figure>
 </section>
-<section class="slide level1" id="nesta-palestra-eu-vou">
-<h1>Nesta palestra eu vou:</h1>
+<section id="contatos" class="slide level1">
+<h1>Contatos</h1>
+<h2 id="httpblog.lfzawacki.com"><a href="http://blog.lfzawacki.com">http://blog.lfzawacki.com</a></h2>
+<h2 id="httpsoundcloud.comlfzawacki"><a href="http://soundcloud.com/lfzawacki">http://soundcloud.com/lfzawacki</a></h2>
+<h2 id="lfzawacki-gmail-twitter-github-...">@lfzawacki (gmail, twitter, github, ...)</h2>
+</section>
+<section id="como-esta-palestra-vai-funcionar" class="slide level1">
+<h1>Como esta palestra vai funcionar</h1>
+<ul>
+<li>Muitos links</li>
+<li>Algumas demonstrações e conversas</li>
+<li>Peguem os slides e explorem</li>
+</ul>
+<h2 id="bit.lylinux_musica"><a href="http://bit.ly/linux_musica">bit.ly/linux_musica</a></h2>
+</section>
+<section id="roteiro" class="slide level1">
+<h1>Roteiro</h1>
 <ul>
 <li>Falar um pouco sobre o Linux</li>
 <li>Sobre o hardware necessário</li>
@@ -105,7 +122,13 @@
 <li>Criar algo aqui na hora para vocês</li>
 </ul>
 </section>
-<section class="slide level1" id="linux-e-música">
+<section id="linux-e-música" class="slide level1">
+<h1>Linux e Música</h1>
+<h2 id="atitude">Atitude</h2>
+<p>Não é requisito, mas se você planeja ser um astro do rock então é melhor desenvolver uma atitude rebelde e rejeitar resolutamente softwares populares.</p>
+<pre><code>Qtractor User Manual</code></pre>
+</section>
+<section id="linux-e-música-1" class="slide level1">
 <h1>Linux e Música</h1>
 <p>Em minha opinião a situação da música no Linux não é perfeita, mas é muito boa!</p>
 <ul>
@@ -114,10 +137,19 @@
 <li>Comunidade não muito grande, mas crescendo</li>
 </ul>
 <figure>
-<img src="images/music.png"><figcaption></figcaption>
+<img src="images/music.png" />
 </figure>
 </section>
-<section class="slide level1" id="ambiente-de-áudio">
+<section id="comunidade" class="slide level1">
+<h1>Comunidade</h1>
+<ul>
+<li><a href="http://linuxmusicians.com/">linuxmusicians.com</a></li>
+<li><a href="http://linux-sound.org/">linux-sound.org</a></li>
+<li><a href="http://opensourcemusician.com/">opensourcemusician.com</a></li>
+<li><a href="http://lists.linuxaudio.org/listinfo/">lists.linuxaudio.org</a></li>
+</ul>
+</section>
+<section id="ambiente-de-áudio" class="slide level1">
 <h1>Ambiente de Áudio</h1>
 <p>A situação já foi pior, mas ainda está meio bagunçada. Diversos &quot;sistemas de áudio&quot; concorrentes e programas que trabalham mais ou menos com cada um deles.</p>
 <ul>
@@ -127,69 +159,109 @@
 <li>outros...</li>
 </ul>
 </section>
-<section class="slide level1" id="ambiente-para-música">
+<section id="ambiente-para-música" class="slide level1">
 <h1>Ambiente para Música</h1>
 <p>No entanto, quando o assunto é produção musical a coisa é mais organizada. Temos alguns padrões como a arquitetura do <a href="http://jackaudio.org/">Jack</a> e os plugins <a href="http://www.ladspa.org/">LADSPA</a> e <a href="http://lv2plug.in/">LV2</a>.</p>
+</section>
+<section id="ambiente-para-música-1" class="slide level1">
+<h1>Ambiente para Música</h1>
 <ul>
-<li>Programas usando padrões bem documentados</li>
-<li>MIDI</li>
-<li>OGG</li>
-<li>OSC</li>
+<li>Grande variedade de software livre <em>e gratuito</em></li>
+<li>Softwares Inovadores</li>
+<li>Programas usando padrões bem documentados (mesmo que nem sempre open)</li>
+<li>MIDI, OSC</li>
+<li>LV2, LADSPA, VST, Soundfonts</li>
+<li>.flac, .ogg, .mp3, .wav, ...</li>
 </ul>
 </section>
-<section class="slide level1" id="primeiros-passos">
+<section id="ambiente-para-a-música" class="slide level1">
+<h1>Ambiente para a música</h1>
+<h2 id="hardware-livre">Hardware Livre</h2>
+<p><a href="https://www.youtube.com/watch?v=zzemdS4s8kk">Raspberry Pi pedal de guitarra</a></p>
+</section>
+<section id="primeiros-passos" class="slide level1">
 <h1>Primeiros passos</h1>
 <h2 id="distro">Distro</h2>
-<p>Suporte de software é muito importante. Qualquer uma mais atualizada e popular deve servir.</p>
+<p>Suporte de software é muito importante. Qualquer uma mais atualizada e popular serve.</p>
 <p>Ubuntu, Mint, Debian, Fedora ...</p>
+</section>
+<section id="primeiros-passos-1" class="slide level1">
+<h1>Primeiros Passos</h1>
+<h2 id="distros-especializadas">Distros Especializadas</h2>
+<ul>
+<li>Muitas, mas muitas mesmo!</li>
+<li><a href="http://ubuntustudio.org/">Ubuntu Studio</a>: Muito popular</li>
+<li><a href="http://kxstudio.sourceforge.net/">KXStudio</a>: Parece promissora</li>
+</ul>
+</section>
+<section id="primeiros-passos-2" class="slide level1">
+<h1>Primeiros passos</h1>
 <h2 id="hardware">Hardware</h2>
 <p>Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.</p>
+<ul>
+<li><a href="http://linuxstudiopro.com/">LinuxStudioPro</a></li>
+<li><a href="http://www.linuxcompatible.org/">Linux Compatible</a></li>
+<li><a href="http://linux-sound.org/hardware.html">Linux Sound</a></li>
+</ul>
 </section>
-<section class="slide level1" id="montado-o-meu-setup">
-<h1>Montado o meu setup</h1>
+<section id="montado-um-setup" class="slide level1">
+<h1>Montado um setup</h1>
 <figure>
-<img src="images/setup2.jpg"><figcaption></figcaption>
+<img src="images/setup2.jpg" />
 </figure>
 </section>
-<section class="slide level1" id="audacity">
+<section id="montando-um-setup" class="slide level1">
+<h1>Montando um setup</h1>
+<figure>
+<img src="images/realtone.jpg" />
+</figure>
+</section>
+<section id="audacity" class="slide level1">
 <h1><a href="http://audacity.sourceforge.net/">Audacity</a></h1>
 <ul>
-<li>Ótimo para gravar</li>
+<li>Ótimo e rápido para gravar</li>
 <li>Perfeito para editar clipes de áudio</li>
+<li>Fácil de usar e intuitivo</li>
 </ul>
 </section>
-<section class="slide level1" id="o-que-é-o-jack">
+<section id="o-que-é-o-jack" class="slide level1">
 <h1>O que é o <a href="http://jackaudio.org/">Jack</a>?</h1>
 <ul>
-<li>É um software muito maneiro :)</li>
+<li>Roteamento modular de áudio com baixa latência</li>
 <li>Faça o roteamento de som entre diferentes aplicativos</li>
+<li>Escreve/lê e redireciona notas MIDI de softwares e hardwares</li>
+<li>Sincronize o BPM de diferentes aplicações</li>
 </ul>
 </section>
-<section class="slide level1" id="guitarix-e-rakkarack">
-<h1><a href="http://guitarix.sourceforge.net/">Guitarix</a> e <a href="http://rakarrack.sourceforge.net/">Rakkarack</a></h1>
+<section id="para-guitarristas" class="slide level1">
+<h1>Para guitarristas</h1>
 <ul>
-<li>Porque eu sei que tem muitos guitarristas por aí!</li>
+<li><a href="http://guitarix.sourceforge.net/">Guitarix</a></li>
+<li><a href="http://rakarrack.sourceforge.net/">Rakkarack</a></li>
+<li><a href="http://linuxmusicians.com/viewtopic.php?f=24&amp;t=7251">gx_tuner</a></li>
+<li><a href="http://sourceforge.net/projects/tuxguitar/">TuxGuitar</a></li>
 </ul>
 </section>
-<section class="slide level1" id="zynaddsubfx-bristol-qsynth-e-outros-synths">
-<h1><a href="http://sourceforge.net/projects/zynaddsubfx/">ZynAddSubFX</a>, <a href="http://bristol.sourceforge.net/about.html">Bristol</a>, <a href="http://qsynth.sourceforge.net/qsynth-index.html">QSynth</a> e outros synths</h1>
+<section id="sintetizadores" class="slide level1">
+<h1>Sintetizadores</h1>
 <ul>
-<li>Síntese sonora por software</li>
-<li>Geralmente controle por MIDI</li>
+<li><a href="http://sourceforge.net/projects/zynaddsubfx/">ZynAddSubFX</a></li>
+<li><a href="http://bristol.sourceforge.net/about.html">Bristol</a></li>
+<li><a href="http://qsynth.sourceforge.net/qsynth-index.html">QSynth</a> e outros synths</li>
 </ul>
 </section>
-<section class="slide level1" id="daws">
-<h1>DAWs</h1>
+<section id="digital-audio-workstations" class="slide level1">
+<h1>Digital Audio Workstations</h1>
 <ul>
 <li>Rosegarden</li>
 <li>Muse</li>
-<li>Ardour</li>
-<li>Qtractor</li>
+<li><a href="http://ardour.org/">Ardour</a></li>
+<li><a href="http://qtractor.sourceforge.net/qtractor-index.html">Qtractor</a></li>
 <li>e outros ...</li>
 </ul>
 </section>
-<section class="slide level1" id="qtractor">
-<h1><a href="">Qtractor</a></h1>
+<section id="ardour" class="slide level1">
+<h1><a href="http://ardour.org/">Ardour</a></h1>
 <ul>
 <li>Gravação e Importação de Áudio</li>
 <li>Gravação e Reprodução de MIDI</li>
@@ -198,23 +270,36 @@
 <li>Em desenvolvimento ativo</li>
 </ul>
 </section>
-<section class="slide level1" id="um-projeto-simples">
-<h1>Um projeto simples</h1>
-<h2 id="section">:)</h2>
-</section>
-<section class="slide level1" id="plugins">
+<section id="plugins" class="slide level1">
 <h1>Plugins</h1>
 <ul>
-<li>Reverb</li>
-<li>Delay</li>
+<li>Reverb, Delay, Phaseshift</li>
 <li>Simulação de válvulas, mesas de gravação</li>
 <li>Sintetizadores ...</li>
+<li>Outras coisas mais malucas</li>
 </ul>
 </section>
-<section class="slide level1" id="referências">
-<h1>Referências</h1>
+<section id="plugins-1" class="slide level1">
+<h1>Plugins</h1>
+<figure>
+<img src="images/carla.png" />
+</figure>
+</section>
+<section id="um-projeto-simples" class="slide level1">
+<h1>Um projeto simples</h1>
+<figure>
+<img src="images/demo.png" />
+</figure>
+</section>
+<section id="um-projeto-simples-1" class="slide level1">
+<h1>Um projeto simples</h1>
+<figure>
+<img src="images/demo2.png" />
+</figure>
+</section>
+<section id="referências-e-mais-informações" class="slide level1">
+<h1>Referências e mais informações</h1>
 <ul>
-<li><a href="http://linuxstudiopro.com/">Compatibilidade de Hardware</a></li>
 <li><a href="http://blog.matehackers.org/tutoriais-de-musica-livre/">Tutoriais de Música Livre</a></li>
 <li><a href="wiki.linuxmusicians.com">Linux Musicians</a></li>
 <li><a href="http://lfzawacki.heroku.com/life/show/Computer+Music">Links sobre computação e música</a></li>

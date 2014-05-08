@@ -7,6 +7,11 @@
 * Formado em Ciência da Computação pela UFRGS
 * Membro do Matehackers (<http://matehackers.org>)
 * Trabalhando no [Mconf](http://mconf.org/)
+* [yuph.net](yuph.net)
+
+# [Mortticia](http://soundcloud.com/mortticia)
+
+![](images/mort.jpg)
 
 # Contatos
 
@@ -14,7 +19,7 @@
 ## <http://soundcloud.com/lfzawacki>
 ## @lfzawacki (gmail, twitter, github, ...)
 
-# Como esta palestra vai funcionar:
+# Como esta palestra vai funcionar
 
 * Muitos links
 * Algumas demonstrações e conversas
@@ -22,7 +27,7 @@
 
 ## [bit.ly/linux_musica](http://bit.ly/linux_musica)
 
-# Roteiro:
+# Roteiro
 
 * Falar um pouco sobre o Linux
 * Sobre o hardware necessário
