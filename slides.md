@@ -6,20 +6,36 @@
 * Lucas Fialho Zawacki
 * Formado em Ciência da Computação pela UFRGS
 * Membro do Matehackers (<http://matehackers.org>)
-* Software Livre na veia!
+* Trabalhando no [Mconf](http://mconf.org/)
 
 # Contatos
 
 ## <http://blog.lfzawacki.com>
 ## <http://soundcloud.com/lfzawacki>
-## @lfzawacki (gmail, twitter, whatever)
+## @lfzawacki (gmail, twitter, github, ...)
 
-# Nesta palestra eu vou:
+# Como esta palestra vai funcionar:
+
+* Muitos links
+* Algumas demonstrações e conversas
+* Peguem os slides e explorem
+
+## [bit.ly/linux_musica](http://bit.ly/linux_musica)
+
+# Roteiro:
 
 * Falar um pouco sobre o Linux
 * Sobre o hardware necessário
 * Demonstrar o software
 * Criar algo aqui na hora para vocês
+
+# Linux e Música
+
+## Atitude
+
+Não é requisito, mas se você planeja ser um astro do rock então é melhor desenvolver uma atitude rebelde e  rejeitar resolutamente softwares populares.
+
+    Qtractor User Manual
 
 # Linux e Música
 
@@ -30,6 +46,13 @@ Em minha opinião a situação da música no Linux não é perfeita, mas é muit
 * Comunidade não muito grande, mas crescendo
 
 ![](images/music.png)
+
+# Comunidade
+
+* [linuxmusicians.com](http://linuxmusicians.com/)
+* [linux-sound.org](http://linux-sound.org/)
+* [opensourcemusician.com](http://opensourcemusician.com/)
+* [lists.linuxaudio.org](http://lists.linuxaudio.org/listinfo/)
 
 # Ambiente de Áudio
 
@@ -46,55 +69,90 @@ A situação já foi pior, mas ainda está meio bagunçada. Diversos
 No entanto, quando o assunto é produção musical a coisa é mais organizada. Temos
 alguns padrões como a arquitetura do [Jack](http://jackaudio.org/) e os plugins [LADSPA](http://www.ladspa.org/) e [LV2](http://lv2plug.in/).
 
-* Programas usando padrões bem documentados
-  * MIDI
-  * OGG
-  * OSC
+# Ambiente para Música
+
+* Grande variedade de software livre *e gratuito*
+* Softwares Inovadores
+* Programas usando padrões bem documentados (mesmo que nem sempre open)
+  * MIDI, OSC
+  * LV2, LADSPA, VST, Soundfonts
+  * .flac, .ogg, .mp3, .wav, ...
+
+# Ambiente para a música
+
+## Hardware Livre
+
+[Raspberry Pi pedal de guitarra](https://www.youtube.com/watch?v=zzemdS4s8kk)
 
 # Primeiros passos
 
 ## Distro
 
-Suporte de software é muito importante. Qualquer uma mais atualizada e popular deve servir.
+Suporte de software é muito importante. Qualquer uma mais atualizada e popular serve.
 
 Ubuntu, Mint, Debian, Fedora ...
+
+# Primeiros Passos
+
+## Distros Especializadas
+
+* Muitas, mas muitas mesmo!
+* [Ubuntu Studio](http://ubuntustudio.org/): Muito popular
+* [KXStudio](http://kxstudio.sourceforge.net/): Parece promissora
+
+# Primeiros passos
 
 ## Hardware
 
 Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 
-# Montado o meu setup
+* [LinuxStudioPro](http://linuxstudiopro.com/)
+* [Linux Compatible](http://www.linuxcompatible.org/)
+* [Linux Sound](http://linux-sound.org/hardware.html)
+
+# Montado um setup
 
 ![](images/setup2.jpg)
 
+# Montando um setup
+
+![](images/realtone.jpg)
+
 # [Audacity](http://audacity.sourceforge.net/)
 
-* Ótimo para gravar
+* Ótimo e rápido para gravar
 * Perfeito para editar clipes de áudio
+* Fácil de usar e intuitivo
 
 # O que é o [Jack](http://jackaudio.org/)?
 
-* É um software muito maneiro :)
+* Roteamento modular de áudio com baixa latência
 * Faça o roteamento de som entre diferentes aplicativos
+* Escreve/lê e redireciona notas MIDI de softwares e hardwares
+* Sincronize o BPM de diferentes aplicações
 
-# [Guitarix](http://guitarix.sourceforge.net/) e [Rakkarack](http://rakarrack.sourceforge.net/)
+# Para guitarristas
 
-* Porque eu sei que tem muitos guitarristas por aí!
+* [Guitarix](http://guitarix.sourceforge.net/)
+* [Rakkarack](http://rakarrack.sourceforge.net/)
+* [gx_tuner](http://linuxmusicians.com/viewtopic.php?f=24&t=7251)
+* [TuxGuitar](http://sourceforge.net/projects/tuxguitar/)
 
-# [ZynAddSubFX](http://sourceforge.net/projects/zynaddsubfx/), [Bristol](http://bristol.sourceforge.net/about.html), [QSynth](http://qsynth.sourceforge.net/qsynth-index.html) e outros synths
+# Sintetizadores
 
-* Síntese sonora por software
-* Geralmente controle por MIDI
+* [ZynAddSubFX](http://sourceforge.net/projects/zynaddsubfx/)
+* [Bristol](http://bristol.sourceforge.net/about.html)
+* [QSynth](http://qsynth.sourceforge.net/qsynth-index.html) e outros synths
 
-# DAWs
+# Digital Audio Workstations
 
 * Rosegarden
 * Muse
-* Ardour
-* Qtractor
+* [Ardour](http://ardour.org/)
+* [Qtractor](http://qtractor.sourceforge.net/qtractor-index.html)
 * e outros ...
 
-# [Qtractor](http://qtractor.sourceforge.net/qtractor-index.html)
+# [Ardour](http://ardour.org/)
 
 * Gravação e Importação de Áudio
 * Gravação e Reprodução de MIDI
@@ -102,20 +160,27 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 * Ótimo suporte a plugins 
 * Em desenvolvimento ativo
 
-# Um projeto simples
+# Plugins
 
-## :)
+* Reverb, Delay, Phaseshift
+* Simulação de válvulas, mesas de gravação
+* Sintetizadores ...
+* Outras coisas mais malucas
 
 # Plugins
 
-* Reverb
-* Delay
-* Simulação de válvulas, mesas de gravação
-* Sintetizadores ...
+![](images/carla.png)
 
-# Referências
+# Um projeto simples
 
-* [Compatibilidade de Hardware](http://linuxstudiopro.com/)
+![](images/demo.png)
+
+# Um projeto simples
+
+![](images/demo2.png)
+
+# Referências e mais informações
+
 * [Tutoriais de Música Livre](http://blog.matehackers.org/tutoriais-de-musica-livre/)
 * [Linux Musicians](wiki.linuxmusicians.com)
 * [Links sobre computação e música](http://lfzawacki.heroku.com/life/show/Computer+Music)
