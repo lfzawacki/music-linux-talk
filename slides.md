@@ -7,9 +7,11 @@
 * Formado em Ciência da Computação pela UFRGS
 * Membro do Matehackers (<http://matehackers.org>)
 * Trabalhando no [Mconf](http://mconf.org/)
-* [yuph.net](yuph.net)
+* [yuph.net](http://yuph.net)
 
 # [Mortticia](http://soundcloud.com/mortticia)
+
+[http://soundcloud.com/mortticia](http://soundcloud.com/mortticia)
 
 ![](images/mort.jpg)
 
@@ -83,11 +85,11 @@ alguns padrões como a arquitetura do [Jack](http://jackaudio.org/) e os plugins
   * LV2, LADSPA, VST, Soundfonts
   * .flac, .ogg, .mp3, .wav, ...
 
-# Ambiente para a música
+# Exemplo de uso: software livre + hardware livre
 
-## Hardware Livre
-
-[Raspberry Pi pedal de guitarra](https://www.youtube.com/watch?v=zzemdS4s8kk)
+<div style="text-align: center;">
+<iframe width="750" height="415" src="http://www.youtube-nocookie.com/embed/zzemdS4s8kk?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 # Primeiros passos
 
@@ -139,7 +141,7 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 # Para guitarristas
 
 * [Guitarix](http://guitarix.sourceforge.net/)
-* [Rakkarack](http://rakarrack.sourceforge.net/)
+* [Rakarrack](http://rakarrack.sourceforge.net/)
 * [gx_tuner](http://linuxmusicians.com/viewtopic.php?f=24&t=7251)
 * [TuxGuitar](http://sourceforge.net/projects/tuxguitar/)
 
@@ -178,6 +180,15 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 
 # Um projeto simples
 
+* Guitarras limpas com amplificador e reverb do Guitarix
+* Cordas e synth lead do ZynAddSubFX
+* Guitarra Base com distorção simples do Guitarix
+* Guitarra solo com distorção do Guitarix e efeito de auto phaseshift (Panalog Phaser) do Rakarrack
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148559052&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
+
+# Um projeto simples
+
 ![](images/demo.png)
 
 # Um projeto simples
@@ -188,4 +199,5 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 
 * [Tutoriais de Música Livre](http://blog.matehackers.org/tutoriais-de-musica-livre/)
 * [Linux Musicians](wiki.linuxmusicians.com)
+* [Linuc Audio FAQ](http://wiki.linuxaudio.org/faq/start)
 * [Links sobre computação e música](http://lfzawacki.heroku.com/life/show/Computer+Music)
