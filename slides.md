@@ -29,6 +29,10 @@
 
 ## [bit.ly/linux_musica](http://bit.ly/linux_musica)
 
+<div style="text-align: center;">
+![](images/qrcode.png) :)
+</div>
+
 # Roteiro
 
 * Falar um pouco sobre o Linux
