@@ -1,6 +1,19 @@
 % Produção Musical de Qualidade no Linux
 % Lucas Fialho Zawacki
 
+# Quer ver esta palestra em vídeo?
+
+<div style="text-align: center;margin: 0 auto; width: 400px;">
+  <video height="320" preload="metadata" controls>
+    <source src="https://dl.dropboxusercontent.com/u/2701879/uploads/music-linux-talk/video.mp4" type="video/mp4">
+    <source src="http://hemingway.softwarelivre.org/fisl15/high/41b/sala41b-high-201405081204.ogv" type="video/ogv">
+    <source src="https://dl.dropboxusercontent.com/u/2701879/uploads/music-linux-talk/video.ogv" type="video/ogv">
+    Seu browser não suporta a tag VIDEO, porra.
+  </video>
+
+  Gravado no FISL15, dia 08 de Maio de 2014.
+</div>
+
 # Quem vos fala?
 
 * Lucas Fialho Zawacki
@@ -11,7 +24,7 @@
 
 # [Mortticia](http://soundcloud.com/mortticia)
 
-[http://soundcloud.com/mortticia](http://soundcloud.com/mortticia)
+<a href="http://soundcloud.com/mortticia" target="_blank">http://soundcloud.com/mortticia</a>
 
 ![](images/mort.jpg)
 
