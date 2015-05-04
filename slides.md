@@ -20,7 +20,6 @@
 * Formado em Ciência da Computação pela UFRGS
 * Membro do Matehackers (<http://matehackers.org>)
 * Trabalhando no [Mconf](http://mconf.org/)
-* [yuph.net](http://yuph.net)
 
 # [Mortticia](http://soundcloud.com/mortticia)
 

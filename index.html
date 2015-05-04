@@ -77,10 +77,21 @@
 </style>
 </head>
 <body>
-<section>
+<section class="title">
   <h1 class="title">Produção Musical de Qualidade no Linux</h1>
   <h2 class="author">Lucas Fialho Zawacki</h2>
   <h3 class="date"></h3>
+</section>
+<section id="quer-ver-esta-palestra-em-vídeo" class="slide level1">
+<h1>Quer ver esta palestra em vídeo?</h1>
+<div style="text-align: center;margin: 0 auto; width: 400px;">
+<video height="320" preload="metadata" controls>
+    
+<source src="https://dl.dropboxusercontent.com/u/2701879/uploads/music-linux-talk/video.mp4" type="video/mp4"> <source src="http://hemingway.softwarelivre.org/fisl15/high/41b/sala41b-high-201405081204.ogv" type="video/ogv"> <source src="https://dl.dropboxusercontent.com/u/2701879/uploads/music-linux-talk/video.ogv" type="video/ogv"> Seu browser não suporta a tag VIDEO, porra.
+</video>
+
+Gravado no FISL15, dia 08 de Maio de 2014.
+</div>
 </section>
 <section id="quem-vos-fala" class="slide level1">
 <h1>Quem vos fala?</h1>
@@ -89,11 +100,11 @@
 <li>Formado em Ciência da Computação pela UFRGS</li>
 <li>Membro do Matehackers (<a href="http://matehackers.org">http://matehackers.org</a>)</li>
 <li>Trabalhando no <a href="http://mconf.org/">Mconf</a></li>
-<li><a href="yuph.net">yuph.net</a></li>
 </ul>
 </section>
 <section id="mortticia" class="slide level1">
 <h1><a href="http://soundcloud.com/mortticia">Mortticia</a></h1>
+<p><a href="http://soundcloud.com/mortticia" target="_blank">http://soundcloud.com/mortticia</a></p>
 <figure>
 <img src="images/mort.jpg" />
 </figure>
@@ -102,7 +113,7 @@
 <h1>Contatos</h1>
 <h2 id="httpblog.lfzawacki.com"><a href="http://blog.lfzawacki.com">http://blog.lfzawacki.com</a></h2>
 <h2 id="httpsoundcloud.comlfzawacki"><a href="http://soundcloud.com/lfzawacki">http://soundcloud.com/lfzawacki</a></h2>
-<h2 id="lfzawacki-gmail-twitter-github-...">@lfzawacki (gmail, twitter, github, ...)</h2>
+<h2 id="lfzawacki-gmail-twitter-github-..."><span class="citation" data-cites="lfzawacki">@lfzawacki</span> (gmail, twitter, github, ...)</h2>
 </section>
 <section id="como-esta-palestra-vai-funcionar" class="slide level1">
 <h1>Como esta palestra vai funcionar</h1>
@@ -112,6 +123,9 @@
 <li>Peguem os slides e explorem</li>
 </ul>
 <h2 id="bit.lylinux_musica"><a href="http://bit.ly/linux_musica">bit.ly/linux_musica</a></h2>
+<div style="text-align: center;">
+<img src="images/qrcode.png" /> :)
+</div>
 </section>
 <section id="roteiro" class="slide level1">
 <h1>Roteiro</h1>
@@ -174,10 +188,12 @@
 <li>.flac, .ogg, .mp3, .wav, ...</li>
 </ul>
 </section>
-<section id="ambiente-para-a-música" class="slide level1">
-<h1>Ambiente para a música</h1>
-<h2 id="hardware-livre">Hardware Livre</h2>
-<p><a href="https://www.youtube.com/watch?v=zzemdS4s8kk">Raspberry Pi pedal de guitarra</a></p>
+<section id="exemplo-de-uso-software-livre-hardware-livre" class="slide level1">
+<h1>Exemplo de uso: software livre + hardware livre</h1>
+<div style="text-align: center;">
+<iframe width="750" height="415" src="http://www.youtube-nocookie.com/embed/zzemdS4s8kk?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 </section>
 <section id="primeiros-passos" class="slide level1">
 <h1>Primeiros passos</h1>
@@ -237,7 +253,7 @@
 <h1>Para guitarristas</h1>
 <ul>
 <li><a href="http://guitarix.sourceforge.net/">Guitarix</a></li>
-<li><a href="http://rakarrack.sourceforge.net/">Rakkarack</a></li>
+<li><a href="http://rakarrack.sourceforge.net/">Rakarrack</a></li>
 <li><a href="http://linuxmusicians.com/viewtopic.php?f=24&amp;t=7251">gx_tuner</a></li>
 <li><a href="http://sourceforge.net/projects/tuxguitar/">TuxGuitar</a></li>
 </ul>
@@ -287,11 +303,22 @@
 </section>
 <section id="um-projeto-simples" class="slide level1">
 <h1>Um projeto simples</h1>
+<ul>
+<li>Guitarras limpas com amplificador e reverb do Guitarix</li>
+<li>Cordas e synth lead do ZynAddSubFX</li>
+<li>Guitarra Base com distorção simples do Guitarix</li>
+<li>Guitarra solo com distorção do Guitarix e efeito de auto phaseshift (Panalog Phaser) do Rakarrack</li>
+</ul>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148559052&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
+
+</section>
+<section id="um-projeto-simples-1" class="slide level1">
+<h1>Um projeto simples</h1>
 <figure>
 <img src="images/demo.png" />
 </figure>
 </section>
-<section id="um-projeto-simples-1" class="slide level1">
+<section id="um-projeto-simples-2" class="slide level1">
 <h1>Um projeto simples</h1>
 <figure>
 <img src="images/demo2.png" />
@@ -302,6 +329,7 @@
 <ul>
 <li><a href="http://blog.matehackers.org/tutoriais-de-musica-livre/">Tutoriais de Música Livre</a></li>
 <li><a href="wiki.linuxmusicians.com">Linux Musicians</a></li>
+<li><a href="http://wiki.linuxaudio.org/faq/start">Linuc Audio FAQ</a></li>
 <li><a href="http://lfzawacki.heroku.com/life/show/Computer+Music">Links sobre computação e música</a></li>
 </ul>
 </section>
