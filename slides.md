@@ -72,6 +72,7 @@ Em minha opinião a situação da música no Linux não é perfeita, mas é muit
 
 # Comunidade
 
+* [musica-livre.xyz](http://musica-livre.xyz): para o pessoal do Brasil!
 * [linuxmusicians.com](http://linuxmusicians.com/)
 * [linux-sound.org](http://linux-sound.org/)
 * [opensourcemusician.com](http://opensourcemusician.com/)
@@ -132,6 +133,7 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 * [LinuxStudioPro](http://linuxstudiopro.com/)
 * [Linux Compatible](http://www.linuxcompatible.org/)
 * [Linux Sound](http://linux-sound.org/hardware.html)
+* [Lista curada por músicos brasileiros](http://musica-livre.xyz/hardware)
 
 # Montado um setup
 
@@ -165,6 +167,7 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 
 * [ZynAddSubFX](http://sourceforge.net/projects/zynaddsubfx/)
 * [Bristol](http://bristol.sourceforge.net/about.html)
+* [Linuxsampler](http://linuxsampler.org)
 * [QSynth](http://qsynth.sourceforge.net/qsynth-index.html) e outros synths
 
 # Digital Audio Workstations
@@ -180,7 +183,7 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 * Gravação e Importação de Áudio
 * Gravação e Reprodução de MIDI
 * Boa interface
-* Ótimo suporte a plugins 
+* Ótimo suporte a plugins
 * Em desenvolvimento ativo
 
 # Plugins
@@ -211,9 +214,14 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 
 ![](images/demo2.png)
 
+# Algumas demos sortidas
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/213989604&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
 # Referências e mais informações
 
+* [Música Livre (para músicos brasileiros)](http://musica-livre.xyz)
 * [Tutoriais de Música Livre](http://blog.matehackers.org/tutoriais-de-musica-livre/)
 * [Linux Musicians](wiki.linuxmusicians.com)
-* [Linuc Audio FAQ](http://wiki.linuxaudio.org/faq/start)
+* [Linux Audio FAQ](http://wiki.linuxaudio.org/faq/start)
 * [Links sobre computação e música](http://lfzawacki.heroku.com/life/show/Computer+Music)
