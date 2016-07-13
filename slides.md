@@ -4,7 +4,7 @@
 # Quer ver esta palestra em vídeo?
 
 <div style="text-align: center;margin: 0 auto; width: 400px;">
-  <video height="320" preload="metadata" controls>
+  <video height="320" preload="none" controls>
     <source src="https://dl.dropboxusercontent.com/u/2701879/uploads/music-linux-talk/video.mp4" type="video/mp4">
     <source src="http://hemingway.softwarelivre.org/fisl15/high/41b/sala41b-high-201405081204.ogv" type="video/ogv">
     <source src="https://dl.dropboxusercontent.com/u/2701879/uploads/music-linux-talk/video.ogv" type="video/ogv">
@@ -77,6 +77,15 @@ Em minha opinião a situação da música no Linux não é perfeita, mas é muit
 * [linux-sound.org](http://linux-sound.org/)
 * [opensourcemusician.com](http://opensourcemusician.com/)
 * [lists.linuxaudio.org](http://lists.linuxaudio.org/listinfo/)
+* [/r/linuxaudio/](https://www.reddit.com/r/linuxaudio/)
+
+# Comunidade
+
+* [Libre Music Production](http://libremusicproduction.com/)
+
+<div style="text-align: center;">
+![](images/lmp2.png) Tutoriais, para todos os níveis.
+</div>
 
 # Ambiente de Áudio
 
@@ -99,7 +108,7 @@ alguns padrões como a arquitetura do [Jack](http://jackaudio.org/) e os plugins
 * Softwares Inovadores
 * Programas usando padrões bem documentados (mesmo que nem sempre open)
   * MIDI, OSC
-  * LV2, LADSPA, VST, Soundfonts
+  * LV2, LADSPA, VST, Soundfonts, SFZ
   * .flac, .ogg, .mp3, .wav, ...
 
 # Exemplo de uso: software livre + hardware livre
@@ -122,7 +131,7 @@ Ubuntu, Mint, Debian, Fedora ...
 
 * Muitas, mas muitas mesmo!
 * [Ubuntu Studio](http://ubuntustudio.org/): Muito popular
-* [KXStudio](http://kxstudio.sourceforge.net/): Parece promissora
+* [KXStudio](http://kxstudio.sourceforge.net/): Amor Eterno S2
 
 # Primeiros passos
 
@@ -133,6 +142,7 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 * [LinuxStudioPro](http://linuxstudiopro.com/)
 * [Linux Compatible](http://www.linuxcompatible.org/)
 * [Linux Sound](http://linux-sound.org/hardware.html)
+* [Linux Audio Wiki: Hardware Support](http://wiki.linuxaudio.org/wiki/hardware_support)
 * [Lista curada por músicos brasileiros](http://musica-livre.xyz/hardware)
 
 # Montado um setup
@@ -163,12 +173,17 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 * [gx_tuner](http://linuxmusicians.com/viewtopic.php?f=24&t=7251)
 * [TuxGuitar](http://sourceforge.net/projects/tuxguitar/)
 
-# Sintetizadores
+# Sintetizadores e Samplers
 
 * [ZynAddSubFX](http://sourceforge.net/projects/zynaddsubfx/)
 * [Bristol](http://bristol.sourceforge.net/about.html)
 * [Linuxsampler](http://linuxsampler.org)
+* Alsa Modular Synth
 * [QSynth](http://qsynth.sourceforge.net/qsynth-index.html) e outros synths
+
+# Sintetizadores
+
+### [linuxsynths.com/](http://linuxsynths.com/)
 
 # Digital Audio Workstations
 
@@ -197,6 +212,18 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 
 ![](images/carla.png)
 
+# Musical Artifacts
+
+Recursos livres para produção musical
+
+[musical-artifacts.com](https://musical-artifacts.com)
+
+* Presets Guitarix
+* Kits Hydrogen
+* Soundfonts
+* Patches para Synths
+* Outros
+
 # Um projeto simples
 
 * Guitarras limpas com amplificador e reverb do Guitarix
@@ -224,4 +251,5 @@ Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.
 * [Tutoriais de Música Livre](http://blog.matehackers.org/tutoriais-de-musica-livre/)
 * [Linux Musicians](wiki.linuxmusicians.com)
 * [Linux Audio FAQ](http://wiki.linuxaudio.org/faq/start)
+* [musical-artifacts.com](https://musical-artifacts.com)
 * [Links sobre computação e música](http://lfzawacki.heroku.com/life/show/Computer+Music)
